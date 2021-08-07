@@ -1,15 +1,27 @@
 @font-face {
-    font-family: 'Roboto' ;
-    src: url('Roboto/Roboto-Black.ttf');
-    src: url('Roboto/Roboto-BlackItalic.ttf');
-    src: url('Roboto/Roboto-Bold.ttf');
-    src: url('Roboto/Roboto-BoldItalic.ttf');
-    src: url('Roboto/Roboto-Italic.ttf');
-    src: url('Roboto/Roboto-Light.ttf');
-    src: url('Roboto/Roboto-LightItalic.ttf');
-    src: url('Roboto/Roboto-Medium.ttf');
-    src: url('Roboto/Roboto-MediumItalic.ttf');
-    src: url('Roboto/Roboto-Regular.ttf');
-    src: url('Roboto/Roboto-Thin.ttf');
-    src: url('Roboto/Roboto-ThinItalic.ttf');
+  font-family: "Roboto";
+  src: url("Roboto/Roboto-Black.ttf");
+  src: url("Roboto/Roboto-BlackItalic.ttf");
+  src: url("Roboto/Roboto-Bold.ttf");
+  src: url("Roboto/Roboto-BoldItalic.ttf");
+  src: url("Roboto/Roboto-Italic.ttf");
+  src: url("Roboto/Roboto-Light.ttf");
+  src: url("Roboto/Roboto-LightItalic.ttf");
+  src: url("Roboto/Roboto-Medium.ttf");
+  src: url("Roboto/Roboto-MediumItalic.ttf");
+  src: url("Roboto/Roboto-Regular.ttf");
+  src: url("Roboto/Roboto-Thin.ttf");
+  src: url("Roboto/");
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style-type: none; 
+  display: flex;
+}
+nav li {
+    margin-right: 15px;
 }
